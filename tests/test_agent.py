@@ -123,4 +123,4 @@ if __name__ == '__main__':
     test.test_deduplication_of_similar_claims()
     test.test_preservation_of_conflicting_claims()
     test.test_claim_extraction_with_evidence()
-    print('\n🎉 All tests passed!')
+    print('\n All tests passed!')
