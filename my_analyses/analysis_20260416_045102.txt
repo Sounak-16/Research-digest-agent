@@ -1,0 +1,156 @@
+============================================================
+RESEARCH DIGEST - 2026-04-16 04:51:02
+============================================================
+
+SOURCES PROCESSED: 5
+TOTAL SOURCES (including duplicates skipped): 5
+CLAIMS EXTRACTED: 21
+THEMES FOUND: 5
+CONFLICTS DETECTED: 0
+
+------------------------------------------------------------
+SOURCES:
+------------------------------------------------------------
+  - https://puchd.ac.in/
+  - https://www.cgcuniversity.in/
+  - https://www.cuchd.in/
+  - https://www.cgc.edu.in/
+  - https://www.chitkara.edu.in/
+
+------------------------------------------------------------
+KEY THEMES:
+------------------------------------------------------------
+
+1. university / ranking / chandigarh
+   Official Website of Panjab University Chandigarh ਪੰਜਾਬ ਯੂਨੀਵਰਸਿਟੀ ਚੰਡੀਗੜ੍ਹ पंजाब विश्वविद्यालय चंडीगढ़ पंजाब यूनिवर्सिटी चंडीगढ़ Chandigarh India NIRF Ranking 2025 35 th Rank among the Indian universities NAAC Grading CGPA of 3.68 on a four-point scale at A++ Grade QS Ranking 2026 Ranked #901-950 in QS World University Rankings.
+   Supporting sources: 1
+   Related claims: 3
+
+2. university, / mohali / mohali,
+   CGC University, Mohali Legacy of CGC CGC University, Mohali, has earned a multitude of prestigious awards, showcasing its unwavering dedication to excellence.
+   Supporting sources: 1
+   Related claims: 4
+
+3. placed / salary / package
+   Last Date - 17 th March 2026 Find Results JBM Group for B.E / B.Tech (Mechanical, Electrical) students of 2026 passing out batch.
+   Supporting sources: 1
+   Related claims: 6
+
+4. b.tech / engineering / computer
+   I started as a student with aspiration and concluded the journey as a professional with a well-paying job.
+   Supporting sources: 1
+   Related claims: 4
+
+5. helpline / university / chitkara
+   Doctoral Programs STATE By providing your contact details, you agree to receive updates from Chitkara University through WhatsApp Global Pathway Programs Chitkara University partners with leading institutions from the US, Canada, and Australia, offering students unparalleled academic mentorship and bringing a world-class global education experience to their doorstep.
+   Supporting sources: 1
+   Related claims: 4
+
+------------------------------------------------------------
+ALL CLAIMS WITH EVIDENCE:
+------------------------------------------------------------
+
+1. CLAIM: Official Website of Panjab University Chandigarh ਪੰਜਾਬ ਯੂਨੀਵਰਸਿਟੀ ਚੰਡੀਗੜ੍ਹ पंजाब विश्वविद्यालय चंडीगढ़ पंजाब यूनिवर्सिटी चंडीगढ़ Chandigarh India NIRF Ranking 2025 35 th Rank among the Indian universities NAAC Grading CGPA of 3.68 on a four-point scale at A++ Grade QS Ranking 2026 Ranked #901-950 in QS World University Rankings.
+   EVIDENCE: Official Website of Panjab University Chandigarh ਪੰਜਾਬ ਯੂਨੀਵਰਸਿਟੀ ਚੰਡੀਗੜ੍ਹ पंजाब विश्वविद्यालय चंडीगढ़ पंजाब यूनिवर्सिटी चंडीगढ़ Chandigarh India NIRF Ranking 2025 35 th Rank among the Indian universi...
+   CONFIDENCE: 50%
+   SOURCE: puchd.ac
+
+2. CLAIM: THE Ranking 2025 Ranked #601-800 in World University Rankings 2025: Times Higher Education (THE).
+   EVIDENCE: THE Ranking 2025 Ranked #601-800 in World University Rankings 2025: Times Higher Education (THE)....
+   CONFIDENCE: 50%
+   SOURCE: puchd.ac
+
+3. CLAIM: "The University shall be incorporated for the purposes, among others, of making provision for imparting education in Arts, Letters, Science and the learned professions and of furthering advancement of learning, the prosecution of original research, with power to appoint University Professors, Readers and Lecturers, to hold and manage educational endowments, to erect, equip and maintain University colleges, libraries, laboratories and museums, to make regulations relating to the residence and conduct of students and to do all such acts as tend to promote study and research.".
+   EVIDENCE: "The University shall be incorporated for the purposes, among others, of making provision for imparting education in Arts, Letters, Science and the learned professions and of furthering advancement of...
+   CONFIDENCE: 50%
+   SOURCE: puchd.ac
+
+4. CLAIM: CGC University, Mohali Legacy of CGC CGC University, Mohali, has earned a multitude of prestigious awards, showcasing its unwavering dedication to excellence.
+   EVIDENCE: CGC University, Mohali Legacy of CGC CGC University, Mohali, has earned a multitude of prestigious awards, showcasing its unwavering dedication to excellence....
+   CONFIDENCE: 60%
+   SOURCE: www.cgcuniversity
+
+5. CLAIM: Backed by substantial funding, 50+ state-of-the-art labs, and a wealth of patents, CGC University, Mohali upholds remarkable standards in academia and research.
+   EVIDENCE: Backed by substantial funding, 50+ state-of-the-art labs, and a wealth of patents, CGC University, Mohali upholds remarkable standards in academia and research....
+   CONFIDENCE: 60%
+   SOURCE: www.cgcuniversity
+
+6. CLAIM: At CGC University, Mohali, we revolutionize the paradigm of academic excellence through our state-of-the-art research infrastructure and comprehensive digital library.
+   EVIDENCE: At CGC University, Mohali, we revolutionize the paradigm of academic excellence through our state-of-the-art research infrastructure and comprehensive digital library....
+   CONFIDENCE: 60%
+   SOURCE: www.cgcuniversity
+
+7. CLAIM: View Campus Life Celebrity Interactions Music Event Live Show Party Nights Cultural Events Life At CGC Sports Activities Meraki DD DAYS HH HOURS MM MINUTES SS SECONDS X Admission Open 2026-27 Hurry!
+   EVIDENCE: View Campus Life Celebrity Interactions Music Event Live Show Party Nights Cultural Events Life At CGC Sports Activities Meraki DD DAYS HH HOURS MM MINUTES SS SECONDS X Admission Open 2026-27 Hurry!...
+   CONFIDENCE: 60%
+   SOURCE: www.cgcuniversity
+
+8. CLAIM: Last Date - 17 th March 2026 Find Results JBM Group for B.E / B.Tech (Mechanical, Electrical) students of 2026 passing out batch.
+   EVIDENCE: Last Date - 17 th March 2026 Find Results JBM Group for B.E / B.Tech (Mechanical, Electrical) students of 2026 passing out batch....
+   CONFIDENCE: 60%
+   SOURCE: www.cuchd
+
+9. CLAIM: Last Date - 17 th March 2026 Find Results Daikin Industries Ltd.
+   EVIDENCE: Last Date - 17 th March 2026 Find Results Daikin Industries Ltd....
+   CONFIDENCE: 60%
+   SOURCE: www.cuchd
+
+10. CLAIM: Find Results BL Kashyap & Sons Ltd for B.E / B.Tech (Civil) students of 2026 passing out batch.
+   EVIDENCE: Find Results BL Kashyap & Sons Ltd for B.E / B.Tech (Civil) students of 2026 passing out batch....
+   CONFIDENCE: 60%
+   SOURCE: www.cuchd
+
+11. CLAIM: Last Date - 17 th March 2026 Find Results Abhyansh Agrahari - Placed in Amazon Salary Package ₹ 60.00 LPA Vandana Chauhan - Placed in Paloalto Salary Package ₹ 54.75 LPA Kunal Chawla - Placed in Volvo Salary Package ₹ 54.00 LPA Harsh Vardhan - Placed in Amazon Salary Package ₹ 44.00 LPA Shanya Trehan - Placed in Microsoft Salary Package ₹ 51.00 LPA Siddhant Bhardwaj - Hired by Dr.
+   EVIDENCE: Last Date - 17 th March 2026 Find Results Abhyansh Agrahari - Placed in Amazon Salary Package ₹ 60.00 LPA Vandana Chauhan - Placed in Paloalto Salary Package ₹ 54.75 LPA Kunal Chawla - Placed in Volvo...
+   CONFIDENCE: 60%
+   SOURCE: www.cuchd
+
+12. CLAIM: Students gain first-hand experience in core mechanical processes, supported by state-of-the-art tools and machines, ensuring readiness for both industrial challenges and cutting-edge research.
+   EVIDENCE: Students gain first-hand experience in core mechanical processes, supported by state-of-the-art tools and machines, ensuring readiness for both industrial challenges and cutting-edge research....
+   CONFIDENCE: 60%
+   SOURCE: www.cuchd
+
+13. CLAIM: With industry-standard equipment for news production, editing, and broadcasting, these studios provide hands-on training that fosters storytelling, creativity, and ethical reporting across multiple platforms.
+   EVIDENCE: With industry-standard equipment for news production, editing, and broadcasting, these studios provide hands-on training that fosters storytelling, creativity, and ethical reporting across multiple pl...
+   CONFIDENCE: 60%
+   SOURCE: www.cuchd
+
+14. CLAIM: I started as a student with aspiration and concluded the journey as a professional with a well-paying job.
+   EVIDENCE: I started as a student with aspiration and concluded the journey as a professional with a well-paying job....
+   CONFIDENCE: 80%
+   SOURCE: www.cgc.edu
+
+15. CLAIM: Top Engineering Colleges Chandigarh, Punjab | NAAC A+ Apply Today Registration Open 2026 × Already Registered?
+   EVIDENCE: Top Engineering Colleges Chandigarh, Punjab | NAAC A+ Apply Today Registration Open 2026 × Already Registered?...
+   CONFIDENCE: 50%
+   SOURCE: www.cgc.edu
+
+16. CLAIM: Click to Login × APPLY TODAY Apply Now Alumni Portal Pay Fee Online Brochure About us Overview Leadership Team Approval & Affiliation Awards & Rankings Programs Engineering B.Tech Computer Science Engineering B.Tech Information Technology B.Tech Artificial Intelligence & Machine Learning B.Tech Electronics & Communication Engineering B.Tech Mechanical Engineering B.Tech in Artificial Intelligence and Data Science B.Tech CSE (I.O.T & Cyber Sec.
+   EVIDENCE: Click to Login × APPLY TODAY Apply Now Alumni Portal Pay Fee Online Brochure About us Overview Leadership Team Approval & Affiliation Awards & Rankings Programs Engineering B.Tech Computer Science Eng...
+   CONFIDENCE: 50%
+   SOURCE: www.cgc.edu
+
+17. CLAIM: including Blockchain) B.Tech CSE (Data Science) B.Tech - Computer Science Engineering (Cyber Security) B.Tech - Electronic and Computer Engineering B.Tech - Robotics and Artificial Intelligence B.Tech - CSE Leet B.Tech - IT Leet B.Tech - AI & DS Leet B.Tech - AI & ML Leet B.Tech-CSE (Cyber Security) Leet B.Tech-Robotics & Artificial Intelligence Leet B.Tech - Electronics and Computer Engineering Leet B.Tech - CSE (Data Science) Leet B.Tech - ME Leet B.Tech - CSE (Internet of things & Cyber Sec.
+   EVIDENCE: including Blockchain) B.Tech CSE (Data Science) B.Tech - Computer Science Engineering (Cyber Security) B.Tech - Electronic and Computer Engineering B.Tech - Robotics and Artificial Intelligence B.Tech...
+   CONFIDENCE: 50%
+   SOURCE: www.cgc.edu
+
+18. CLAIM: Doctoral Programs STATE By providing your contact details, you agree to receive updates from Chitkara University through WhatsApp Global Pathway Programs Chitkara University partners with leading institutions from the US, Canada, and Australia, offering students unparalleled academic mentorship and bringing a world-class global education experience to their doorstep.
+   EVIDENCE: Doctoral Programs STATE By providing your contact details, you agree to receive updates from Chitkara University through WhatsApp Global Pathway Programs Chitkara University partners with leading inst...
+   CONFIDENCE: 60%
+   SOURCE: www.chitkara.edu
+
+19. CLAIM: Chitkara University - Best University In India (Punjab, Himachal & Haryana) In order to Download Application Form, you need to verify your mobile number Enter Mobile Number Enter Verification Code Please Wait If you face any problem in downloading or if you live outside India and do not have an Indian phone number, please email us at admissions@chitkara.edu.in or call +91 9501105714 for assistance.
+   EVIDENCE: Chitkara University - Best University In India (Punjab, Himachal & Haryana) In order to Download Application Form, you need to verify your mobile number Enter Mobile Number Enter Verification Code Ple...
+   CONFIDENCE: 50%
+   SOURCE: www.chitkara.edu
+
+20. CLAIM: By submitting your contact details, you authorise Chitkara University to contact you about our services via WhatsApp, email, text or call even though you may be registered on DND.
+   EVIDENCE: By submitting your contact details, you authorise Chitkara University to contact you about our services via WhatsApp, email, text or call even though you may be registered on DND....
+   CONFIDENCE: 50%
+   SOURCE: www.chitkara.edu
+
+21. CLAIM: Home Alumni Request Document Careers ChalkERP Research Startup Placement Cell Apply Now Admissions Helpline For more information give a miss call on 1800 267 1999 Admission Helpline 9501105714 9501105715 Delhi & NCR Helpline 9599368734 WB / North East Helpline 9810355724 UP / Bihar / Jharkhand Helpline 9873288076 J&K / Rajasthan Helpline 9501105716 WhatsApp 9859000000 arrow_back arrow_forward arrow_back arrow_forward ADMISSION NOTICE 2026 Admissions to Bachelor of Physiotherapy (BPT), B.A.
+   EVIDENCE: Home Alumni Request Document Careers ChalkERP Research Startup Placement Cell Apply Now Admissions Helpline For more information give a miss call on 1800 267 1999 Admission Helpline 9501105714 9501105...
+   CONFIDENCE: 50%
+   SOURCE: www.chitkara.edu

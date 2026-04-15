@@ -1,0 +1,178 @@
+{
+  "generated_at": "2026-04-16T04:54:47.711883",
+  "sources": [
+    {
+      "source_id": "C:\\Users\\acer\\research-digest-agent\\ai_detailed.txt",
+      "title": "ai_detailed",
+      "content_length": 4051,
+      "source_type": "file"
+    },
+    {
+      "source_id": "C:\\Users\\acer\\research-digest-agent\\business_research.txt",
+      "title": "business_research",
+      "content_length": 168,
+      "source_type": "file"
+    },
+    {
+      "source_id": "C:\\Users\\acer\\research-digest-agent\\climate_research.txt",
+      "title": "climate_research",
+      "content_length": 3952,
+      "source_type": "file"
+    },
+    {
+      "source_id": "C:\\Users\\acer\\research-digest-agent\\my_research.txt",
+      "title": "my_research",
+      "content_length": 994,
+      "source_type": "file"
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "C:\\Users\\acer\\research-digest-agent\\ai_detailed.tx_0",
+      "source_id": "C:\\Users\\acer\\research-digest-agent\\ai_detailed.txt",
+      "text": "================================================================ ARTIFICIAL INTELLIGENCE - COMPREHENSIVE RESEARCH 2024 ================================================================ SECTION 1: MARKET GROWTH AND ECONOMIC IMPACT The global artificial intelligence market size was valued at $150.2 billion in 2023 and is projected to grow at a compound annual growth rate (CAGR) of 36.8% from 2024 to 2030, reaching approximately $1.8 trillion by 2030 according to Grand View Research.",
+      "evidence": "================================================================ ARTIFICIAL INTELLIGENCE - COMPREHENSIVE RESEARCH 2024 ================================================================ SECTION 1: MARKE...",
+      "confidence": 0.6
+    },
+    {
+      "claim_id": "C:\\Users\\acer\\research-digest-agent\\ai_detailed.tx_3",
+      "source_id": "C:\\Users\\acer\\research-digest-agent\\ai_detailed.txt",
+      "text": "AI is projected to contribute $15.7 trillion to the global economy by 2030, with $6.6 trillion from increased productivity and $9.1 trillion from consumption-side effects according to PwC analysis.",
+      "evidence": "AI is projected to contribute $15.7 trillion to the global economy by 2030, with $6.6 trillion from increased productivity and $9.1 trillion from consumption-side effects according to PwC analysis.",
+      "confidence": 0.6
+    },
+    {
+      "claim_id": "C:\\Users\\acer\\research-digest-agent\\ai_detailed.tx_4",
+      "source_id": "C:\\Users\\acer\\research-digest-agent\\ai_detailed.txt",
+      "text": "SECTION 2: HEALTHCARE APPLICATIONS Deep learning algorithms now achieve 94.5% accuracy in detecting pneumonia from chest X-rays, surpassing the average radiologist accuracy of 88.7% according to a Stanford University study published in Nature Medicine (2023).",
+      "evidence": "SECTION 2: HEALTHCARE APPLICATIONS Deep learning algorithms now achieve 94.5% accuracy in detecting pneumonia from chest X-rays, surpassing the average radiologist accuracy of 88.7% according to a Sta...",
+      "confidence": 0.6
+    },
+    {
+      "claim_id": "C:\\Users\\acer\\research-digest-agent\\ai_detailed.tx_6",
+      "source_id": "C:\\Users\\acer\\research-digest-agent\\ai_detailed.txt",
+      "text": "The study involved over 500,000 patient visits and demonstrated significant improvement in patient outcomes.",
+      "evidence": "The study involved over 500,000 patient visits and demonstrated significant improvement in patient outcomes.",
+      "confidence": 0.8
+    },
+    {
+      "claim_id": "C:\\Users\\acer\\research-digest-agent\\ai_detailed.tx_11",
+      "source_id": "C:\\Users\\acer\\research-digest-agent\\ai_detailed.txt",
+      "text": "Safety statistics show that vehicles equipped with FSD experience 40% fewer accidents compared to human-driven vehicles per million miles traveled.",
+      "evidence": "Safety statistics show that vehicles equipped with FSD experience 40% fewer accidents compared to human-driven vehicles per million miles traveled.",
+      "confidence": 0.8
+    },
+    {
+      "claim_id": "C:\\Users\\acer\\research-digest-agent\\ai_detailed.tx_13",
+      "source_id": "C:\\Users\\acer\\research-digest-agent\\ai_detailed.txt",
+      "text": "The company reports that 85% of riders prefer autonomous taxis over traditional ride-sharing.",
+      "evidence": "The company reports that 85% of riders prefer autonomous taxis over traditional ride-sharing.",
+      "confidence": 0.6
+    },
+    {
+      "claim_id": "C:\\Users\\acer\\research-digest-agent\\ai_detailed.tx_14",
+      "source_id": "C:\\Users\\acer\\research-digest-agent\\ai_detailed.txt",
+      "text": "SECTION 4: GENERATIVE AI REVOLUTION OpenAI's GPT-4 demonstrates human-level performance on multiple professional exams: 90th percentile on the Uniform Bar Exam, 88th percentile on the SAT, and 85th percentile on the GRE Verbal section.",
+      "evidence": "SECTION 4: GENERATIVE AI REVOLUTION OpenAI's GPT-4 demonstrates human-level performance on multiple professional exams: 90th percentile on the Uniform Bar Exam, 88th percentile on the SAT, and 85th pe...",
+      "confidence": 0.8
+    },
+    {
+      "claim_id": "C:\\Users\\acer\\research-digest-agent\\ai_detailed.tx_18",
+      "source_id": "C:\\Users\\acer\\research-digest-agent\\ai_detailed.txt",
+      "text": "SECTION 5: ETHICAL CONCERNS AND REGULATION According to Pew Research (2024), 78% of Americans believe AI could increase economic inequality, while 65% express concern about AI-related job displacement in the next decade.",
+      "evidence": "SECTION 5: ETHICAL CONCERNS AND REGULATION According to Pew Research (2024), 78% of Americans believe AI could increase economic inequality, while 65% express concern about AI-related job displacement...",
+      "confidence": 0.6
+    },
+    {
+      "claim_id": "C:\\Users\\acer\\research-digest-agent\\ai_detailed.tx_21",
+      "source_id": "C:\\Users\\acer\\research-digest-agent\\ai_detailed.txt",
+      "text": "SECTION 6: FUTURE PROJECTIONS Leading AI researchers predict a 50% probability of achieving Artificial General Intelligence (AGI) by 2050, according to a survey of 500 AI experts published in the Journal of Artificial Intelligence Research.",
+      "evidence": "SECTION 6: FUTURE PROJECTIONS Leading AI researchers predict a 50% probability of achieving Artificial General Intelligence (AGI) by 2050, according to a survey of 500 AI experts published in the Jour...",
+      "confidence": 0.6
+    },
+    {
+      "claim_id": "C:\\Users\\acer\\research-digest-agent\\ai_detailed.tx_24",
+      "source_id": "C:\\Users\\acer\\research-digest-agent\\ai_detailed.txt",
+      "text": "Sources: Stanford AI Index Report 2024, MIT Technology Review, Nature Medicine, PwC Global AI Study, Grand View Research, Pew Research Center, European Union Publications",
+      "evidence": "Sources: Stanford AI Index Report 2024, MIT Technology Review, Nature Medicine, PwC Global AI Study, Grand View Research, Pew Research Center, European Union Publications",
+      "confidence": 0.6
+    },
+    {
+      "claim_id": "C:\\Users\\acer\\research-digest-agent\\business_resea_fallback_0",
+      "source_id": "C:\\Users\\acer\\research-digest-agent\\business_research.txt",
+      "text": "REMOTE WORK - 58% of employees prefer full-time remote work - Companies save $11,000 per remote employee annually - Productivity increased 47% during remote work period",
+      "evidence": "REMOTE WORK - 58% of employees prefer full-time remote work - Companies save $11,000 per remote employee annually - Productivity increased 47% during remote work period",
+      "confidence": 0.5
+    },
+    {
+      "claim_id": "C:\\Users\\acer\\research-digest-agent\\climate_resear_5",
+      "source_id": "C:\\Users\\acer\\research-digest-agent\\climate_research.txt",
+      "text": "This represents a doubling of the rate observed in the 1990s (1.8 mm/year).",
+      "evidence": "This represents a doubling of the rate observed in the 1990s (1.8 mm/year).",
+      "confidence": 0.6
+    },
+    {
+      "claim_id": "C:\\Users\\acer\\research-digest-agent\\climate_resear_7",
+      "source_id": "C:\\Users\\acer\\research-digest-agent\\climate_research.txt",
+      "text": "Combined, these ice sheets contribute 60% of observed sea level rise.",
+      "evidence": "Combined, these ice sheets contribute 60% of observed sea level rise.",
+      "confidence": 0.6
+    },
+    {
+      "claim_id": "C:\\Users\\acer\\research-digest-agent\\climate_resear_12",
+      "source_id": "C:\\Users\\acer\\research-digest-agent\\climate_research.txt",
+      "text": "SECTION 3: RENEWABLE ENERGY TRANSITION Solar energy costs have decreased by 89% over the past decade, from $0.28/kWh in 2014 to $0.03/kWh in 2024, making solar the cheapest electricity source in history according to Lazard's Levelized Cost of Energy Analysis.",
+      "evidence": "SECTION 3: RENEWABLE ENERGY TRANSITION Solar energy costs have decreased by 89% over the past decade, from $0.28/kWh in 2014 to $0.03/kWh in 2024, making solar the cheapest electricity source in histo...",
+      "confidence": 0.6
+    },
+    {
+      "claim_id": "C:\\Users\\acer\\research-digest-agent\\climate_resear_18",
+      "source_id": "C:\\Users\\acer\\research-digest-agent\\climate_research.txt",
+      "text": "The top emitters are China (31%), United States (14%), India (7%), and EU (7%).",
+      "evidence": "The top emitters are China (31%), United States (14%), India (7%), and EU (7%).",
+      "confidence": 0.6
+    },
+    {
+      "claim_id": "C:\\Users\\acer\\research-digest-agent\\climate_resear_30",
+      "source_id": "C:\\Users\\acer\\research-digest-agent\\climate_research.txt",
+      "text": "Sources: NASA Goddard Institute, NOAA Climate Report, IPCC Sixth Assessment Report, International Energy Agency (IEA), Lazard Analysis, World Meteorological Organization",
+      "evidence": "Sources: NASA Goddard Institute, NOAA Climate Report, IPCC Sixth Assessment Report, International Energy Agency (IEA), Lazard Analysis, World Meteorological Organization",
+      "confidence": 0.6
+    },
+    {
+      "claim_id": "C:\\Users\\acer\\research-digest-agent\\my_research.tx_0",
+      "source_id": "C:\\Users\\acer\\research-digest-agent\\my_research.txt",
+      "text": "ARTIFICIAL INTELLIGENCE RESEARCH 2024 Key Research Findings: 1.",
+      "evidence": "ARTIFICIAL INTELLIGENCE RESEARCH 2024 Key Research Findings: 1.",
+      "confidence": 0.6
+    },
+    {
+      "claim_id": "C:\\Users\\acer\\research-digest-agent\\my_research.tx_1",
+      "source_id": "C:\\Users\\acer\\research-digest-agent\\my_research.txt",
+      "text": "OpenAI's GPT-4 demonstrates human-level performance on multiple professional exams including the bar exam (90th percentile) and SAT (88th percentile).",
+      "evidence": "OpenAI's GPT-4 demonstrates human-level performance on multiple professional exams including the bar exam (90th percentile) and SAT (88th percentile).",
+      "confidence": 0.8
+    },
+    {
+      "claim_id": "C:\\Users\\acer\\research-digest-agent\\my_research.tx_5",
+      "source_id": "C:\\Users\\acer\\research-digest-agent\\my_research.txt",
+      "text": "Tesla's autonomous driving system has driven over 3 billion miles, with safety statistics showing 40% fewer accidents than human drivers.",
+      "evidence": "Tesla's autonomous driving system has driven over 3 billion miles, with safety statistics showing 40% fewer accidents than human drivers.",
+      "confidence": 0.6
+    },
+    {
+      "claim_id": "C:\\Users\\acer\\research-digest-agent\\my_research.tx_13",
+      "source_id": "C:\\Users\\acer\\research-digest-agent\\my_research.txt",
+      "text": "Ethical concerns: 78% of Americans believe AI could increase economic inequality according to Pew Research.",
+      "evidence": "Ethical concerns: 78% of Americans believe AI could increase economic inequality according to Pew Research.",
+      "confidence": 0.6
+    },
+    {
+      "claim_id": "C:\\Users\\acer\\research-digest-agent\\my_research.tx_14",
+      "source_id": "C:\\Users\\acer\\research-digest-agent\\my_research.txt",
+      "text": "Sources: MIT Technology Review, Stanford AI Index Report 2024, Nature Journal",
+      "evidence": "Sources: MIT Technology Review, Stanford AI Index Report 2024, Nature Journal",
+      "confidence": 0.6
+    }
+  ]
+}

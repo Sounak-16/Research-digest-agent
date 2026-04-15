@@ -1,0 +1,228 @@
+============================================================
+RESEARCH DIGEST - 2026-04-16 05:02:44
+============================================================
+
+SOURCES PROCESSED: 5
+TOTAL CLAIMS: 28
+THEMES FOUND: 13
+
+------------------------------------------------------------
+SOURCES:
+------------------------------------------------------------
+  - ai_detailed.txt
+  - ai_research.txt
+  - business_research.txt
+  - climate_research.txt
+  - my_research.txt
+
+------------------------------------------------------------
+KEY THEMES:
+------------------------------------------------------------
+
+1. artificial / intelligence
+   ================================================================
+ARTIFICIAL INTELLIGENCE - COMPREHENSIVE RESEARCH 2024
+===============================...
+   Supporting claims: 3
+
+2. trillion / projected
+   AI is projected to contribute $15.7 trillion to the global economy by 2030, with $6.6 trillion from increased productivity and $9.1 trillion from cons...
+   Supporting claims: 2
+
+3. accuracy / section
+   SECTION 2: HEALTHCARE APPLICATIONS
+
+Deep learning algorithms now achieve 94.5% accuracy in detecting pneumonia from chest X-rays, surpassing the avera...
+   Supporting claims: 2
+
+4. patient / involved
+   The study involved over 500,000 patient visits and demonstrated significant improvement in patient outcomes....
+   Supporting claims: 2
+
+5. researchers / developed
+   Researchers at MIT developed an AI model that can predict breast cancer development up to 5 years before clinical diagnosis, achieving 87% sensitivity...
+   Supporting claims: 3
+
+6. breakthrough / accelerating
+   This breakthrough is accelerating drug discovery and disease research significantly....
+   Supporting claims: 2
+
+7. vehicles / safety
+   Safety statistics show that vehicles equipped with FSD experience 40% fewer accidents compared to human-driven vehicles per million miles traveled....
+   Supporting claims: 3
+
+8. company / reports
+   The company reports that 85% of riders prefer autonomous taxis over traditional ride-sharing....
+   Supporting claims: 2
+
+9. percentile / openai's
+   SECTION 4: GENERATIVE AI REVOLUTION
+
+OpenAI's GPT-4 demonstrates human-level performance on multiple professional exams: 90th percentile on the Unifor...
+   Supporting claims: 3
+
+10. ethical / according
+   SECTION 5: ETHICAL CONCERNS AND REGULATION
+
+According to Pew Research (2024), 78% of Americans believe AI could increase economic inequality, while 65...
+   Supporting claims: 3
+
+11. energy / section
+   SECTION 3: RENEWABLE ENERGY TRANSITION
+
+Solar energy costs have decreased by 89% over the past decade, from $0.28/kWh in 2014 to $0.03/kWh in 2024, ma...
+   Supporting claims: 1
+
+12. report, / sources:
+   Sources: NASA Goddard Institute, NOAA Climate Report, IPCC Sixth Assessment Report, International Energy Agency (IEA), Lazard Analysis, World Meteorol...
+   Supporting claims: 1
+
+13. sources: / technology
+   Sources: MIT Technology Review, Stanford AI Index Report 2024, Nature Journal...
+   Supporting claims: 1
+
+------------------------------------------------------------
+ALL CLAIMS:
+------------------------------------------------------------
+
+1. ================================================================
+ARTIFICIAL INTELLIGENCE - COMPREHENSIVE RESEARCH 2024
+================================================================
+
+SECTION 1: MARKET GROWTH AND ECONOMIC IMPACT
+
+The global artificial intelligence market size was valued at $150.2 billion in 2023 and is projected to grow at a compound annual growth rate (CAGR) of 36.8% from 2024 to 2030, reaching approximately $1.8 trillion by 2030 according to Grand View Research.
+   Confidence: 70%
+   Source: ai_detailed.txt
+
+2. AI is projected to contribute $15.7 trillion to the global economy by 2030, with $6.6 trillion from increased productivity and $9.1 trillion from consumption-side effects according to PwC analysis.
+   Confidence: 70%
+   Source: ai_detailed.txt
+
+3. SECTION 2: HEALTHCARE APPLICATIONS
+
+Deep learning algorithms now achieve 94.5% accuracy in detecting pneumonia from chest X-rays, surpassing the average radiologist accuracy of 88.7% according to a Stanford University study published in Nature Medicine (2023).
+   Confidence: 70%
+   Source: ai_detailed.txt
+
+4. The study involved over 500,000 patient visits and demonstrated significant improvement in patient outcomes.
+   Confidence: 85%
+   Source: ai_detailed.txt
+
+5. Researchers at MIT developed an AI model that can predict breast cancer development up to 5 years before clinical diagnosis, achieving 87% sensitivity and 76% specificity across 60,000 mammograms.
+   Confidence: 70%
+   Source: ai_detailed.txt
+
+6. This breakthrough is accelerating drug discovery and disease research significantly.
+   Confidence: 70%
+   Source: ai_detailed.txt
+
+7. Safety statistics show that vehicles equipped with FSD experience 40% fewer accidents compared to human-driven vehicles per million miles traveled.
+   Confidence: 70%
+   Source: ai_detailed.txt
+
+8. The company reports that 85% of riders prefer autonomous taxis over traditional ride-sharing.
+   Confidence: 70%
+   Source: ai_detailed.txt
+
+9. SECTION 4: GENERATIVE AI REVOLUTION
+
+OpenAI's GPT-4 demonstrates human-level performance on multiple professional exams: 90th percentile on the Uniform Bar Exam, 88th percentile on the SAT, and 85th percentile on the GRE Verbal section.
+   Confidence: 85%
+   Source: ai_detailed.txt
+
+10. SECTION 5: ETHICAL CONCERNS AND REGULATION
+
+According to Pew Research (2024), 78% of Americans believe AI could increase economic inequality, while 65% express concern about AI-related job displacement in the next decade.
+   Confidence: 70%
+   Source: ai_detailed.txt
+
+11. ================================================================
+ARTIFICIAL INTELLIGENCE - COMPREHENSIVE RESEARCH 2024
+================================================================
+
+SECTION 1: MARKET GROWTH AND ECONOMIC IMPACT
+
+The global artificial intelligence market size was valued at $150.2 billion in 2023 and is projected to grow at a compound annual growth rate of 36.8% from 2024 to 2030, reaching approximately $1.8 trillion by 2030 according to Grand View Research.
+   Confidence: 70%
+   Source: ai_research.txt
+
+12. AI is projected to contribute $15.7 trillion to the global economy by 2030, with $6.6 trillion from increased productivity and $9.1 trillion from consumption-side effects according to PwC analysis.
+   Confidence: 70%
+   Source: ai_research.txt
+
+13. SECTION 2: HEALTHCARE APPLICATIONS
+
+Deep learning algorithms now achieve 94.5% accuracy in detecting pneumonia from chest X-rays, surpassing the average radiologist accuracy of 88.7% according to a Stanford University study published in Nature Medicine.
+   Confidence: 70%
+   Source: ai_research.txt
+
+14. The study involved over 500,000 patient visits and demonstrated significant improvement in patient outcomes.
+   Confidence: 85%
+   Source: ai_research.txt
+
+15. Researchers at MIT developed an AI model that can predict breast cancer development up to 5 years before clinical diagnosis, achieving 87% sensitivity and 76% specificity across 60,000 mammograms.
+   Confidence: 70%
+   Source: ai_research.txt
+
+16. This breakthrough is accelerating drug discovery and disease research significantly.
+   Confidence: 70%
+   Source: ai_research.txt
+
+17. Safety statistics show that vehicles equipped with FSD experience 40% fewer accidents compared to human-driven vehicles per million miles traveled.
+   Confidence: 70%
+   Source: ai_research.txt
+
+18. The company reports that 85% of riders prefer autonomous taxis over traditional ride-sharing.
+   Confidence: 70%
+   Source: ai_research.txt
+
+19. SECTION 4: GENERATIVE AI REVOLUTION
+
+OpenAI's GPT-4 demonstrates human-level performance on multiple professional exams: 90th percentile on the Uniform Bar Exam, 88th percentile on the SAT, and 85th percentile on the GRE Verbal section.
+   Confidence: 85%
+   Source: ai_research.txt
+
+20. SECTION 5: ETHICAL CONCERNS AND REGULATION
+
+According to Pew Research, 78% of Americans believe AI could increase economic inequality, while 65% express concern about AI-related job displacement in the next decade.
+   Confidence: 70%
+   Source: ai_research.txt
+
+21. SECTION 3: RENEWABLE ENERGY TRANSITION
+
+Solar energy costs have decreased by 89% over the past decade, from $0.28/kWh in 2014 to $0.03/kWh in 2024, making solar the cheapest electricity source in history according to Lazard's Levelized Cost of Energy Analysis.
+   Confidence: 70%
+   Source: climate_research.txt
+
+22. Sources: NASA Goddard Institute, NOAA Climate Report, IPCC Sixth Assessment Report, International Energy Agency (IEA), Lazard Analysis, World Meteorological Organization
+   Confidence: 70%
+   Source: climate_research.txt
+
+23. ARTIFICIAL INTELLIGENCE RESEARCH 2024
+
+Key Research Findings:
+
+1.
+   Confidence: 70%
+   Source: my_research.txt
+
+24. OpenAI's GPT-4 demonstrates human-level performance on multiple professional exams including the bar exam (90th percentile) and SAT (88th percentile).
+   Confidence: 85%
+   Source: my_research.txt
+
+25. Tesla's autonomous driving system has driven over 3 billion miles, with safety statistics showing 40% fewer accidents than human drivers.
+   Confidence: 70%
+   Source: my_research.txt
+
+26. AI in healthcare: MIT researchers developed an AI model that detects breast cancer 5 years before clinical diagnosis with 87% accuracy.
+   Confidence: 70%
+   Source: my_research.txt
+
+27. Ethical concerns: 78% of Americans believe AI could increase economic inequality according to Pew Research.
+   Confidence: 70%
+   Source: my_research.txt
+
+28. Sources: MIT Technology Review, Stanford AI Index Report 2024, Nature Journal
+   Confidence: 70%
+   Source: my_research.txt
