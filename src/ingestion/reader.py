@@ -1,4 +1,3 @@
-# Fix reader.py - correct version
 import re
 from bs4 import BeautifulSoup
 import logging
