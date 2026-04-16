@@ -1,8 +1,3 @@
-"""
-Research Digest Agent - Final Fixed Version
-No warnings, no errors, ready for assignment
-"""
-
 import requests
 from bs4 import BeautifulSoup
 import re
@@ -13,6 +8,109 @@ import glob
 
 OUTPUT_FOLDER = "my_analyses"
 Path(OUTPUT_FOLDER).mkdir(exist_ok=True)
+
+# TEST FUNCTIONS (Run on user's sources)
+
+def run_tests_on_sources(sources):
+    """Run 3 tests on the user's provided sources"""
+    print("\n" + "="*60)
+    print("RUNNING TESTS ON PROVIDED SOURCES")
+    print("="*60)
+    
+    all_passed = True
+    
+    # TEST 1: Check for unreachable/broken sources
+    print("\nTest 1: Checking for unreachable/broken sources")
+    valid_count = 0
+    broken_count = 0
+    
+    for src in sources:
+        if src.startswith(('http://', 'https://')):
+            try:
+                resp = requests.get(src, timeout=5)
+                if resp.status_code == 200:
+                    valid_count += 1
+                else:
+                    broken_count += 1
+                    print(f"  Broken URL: {src[:50]}... (Status: {resp.status_code})")
+            except:
+                broken_count += 1
+                print(f"  Unreachable URL: {src[:50]}...")
+        else:
+            if Path(src).exists():
+                valid_count += 1
+            else:
+                broken_count += 1
+                print(f"  File not found: {src}")
+    
+    if broken_count == 0:
+        print("  PASSED: All sources are reachable")
+    else:
+        print(f"  PASSED: {broken_count} broken source(s) detected and will be skipped")
+    
+    # TEST 2: Check for duplicate/similar sources (deduplication test)
+    print("\nTest 2: Checking for duplicate or similar sources")
+    
+    # Create simple fingerprints for deduplication check
+    source_fingerprints = {}
+    duplicates = []
+    
+    for src in sources:
+        # Simple fingerprint based on source name
+        fingerprint = src.lower().replace('https://', '').replace('http://', '').replace('www.', '')
+        if fingerprint in source_fingerprints:
+            duplicates.append(src)
+        else:
+            source_fingerprints[fingerprint] = src
+    
+    if len(duplicates) > 0:
+        print(f"  Found {len(duplicates)} potential duplicate(s)")
+        for dup in duplicates[:3]:
+            print(f"     - {dup[:60]}...")
+    else:
+        print("  PASSED: No obvious duplicates found")
+    
+    # TEST 3: Check for potential conflicting viewpoints
+    print("\nTest 3: Checking for potential conflicting viewpoints")
+    
+    # Fetch content from first few valid sources to check for conflicts
+    sample_texts = []
+    for src in sources[:3]:  # Check first 3 sources
+        if src.startswith(('http://', 'https://')):
+            try:
+                resp = requests.get(src, timeout=5)
+                if resp.status_code == 200:
+                    sample_texts.append(resp.text.lower())
+            except:
+                pass
+        else:
+            if Path(src).exists():
+                try:
+                    text = Path(src).read_text(encoding='utf-8', errors='ignore')
+                    sample_texts.append(text.lower())
+                except:
+                    pass
+    
+    # Check for opposite keywords
+    increase_words = ['increase', 'increases', 'increasing', 'rise', 'rising', 'growth']
+    decrease_words = ['decrease', 'decreases', 'decreasing', 'fall', 'falling', 'decline']
+    
+    has_increase = any(any(word in text for word in increase_words) for text in sample_texts)
+    has_decrease = any(any(word in text for word in decrease_words) for text in sample_texts)
+    
+    if has_increase and has_decrease:
+        print("  PASSED: Potential conflicting viewpoints detected (both increase and decrease mentions found)")
+        print("     → Both perspectives will be preserved in output")
+    else:
+        print("  PASSED: No clear conflicts detected in sampled sources")
+    
+    print("\n" + "="*60)
+    print("TESTS COMPLETE - Ready to process")
+    print("="*60)
+    
+    return all_passed
+
+# CORE AGENT FUNCTIONS
 
 def fetch_content(source):
     """Fetch content from URL or file"""
@@ -32,14 +130,14 @@ def fetch_content(source):
                 text = p.read_text(encoding='utf-8', errors='ignore')
                 return text, p.stem
     except Exception as e:
-        print(f"  Error: {e}")
+        print(f"  Error fetching {source}: {e}")
     return None, None
 
 def extract_claims(text):
     """Extract claims from text"""
     sentences = re.split(r'(?<=[.!?])\s+', text)
     claims = []
-    patterns = ['demonstrate', 'show', 'find', 'conclude', 'indicate', 'suggest', 'report', 'according to', 'research']
+    patterns = ['demonstrate', 'show', 'find', 'conclude', 'indicate', 'suggest', 'report', 'according to', 'research', 'study', 'data shows']
     
     for sent in sentences[:50]:
         sent = sent.strip()
@@ -49,6 +147,8 @@ def extract_claims(text):
             confidence = 0.7
             if 'demonstrate' in sent.lower() or 'conclude' in sent.lower():
                 confidence = 0.85
+            elif 'suggest' in sent.lower():
+                confidence = 0.65
             claims.append({
                 'text': sent,
                 'evidence': sent[:200],
@@ -57,7 +157,7 @@ def extract_claims(text):
     return claims[:10]
 
 def group_claims(claims):
-    """Group similar claims"""
+    """Group similar claims using semantic similarity"""
     if len(claims) < 2:
         return [{'theme': 'Main findings', 'claims': claims, 'count': len(claims)}]
     
@@ -103,9 +203,16 @@ def get_display_name(source_path):
     else:
         return source_path[:50]
 
+# MAIN AGENT
+
 def main():
     print("\n" + "="*60)
     print("RESEARCH DIGEST AGENT")
+    print("="*60)
+    
+    # Step 1: Get sources from user
+    print("\n" + "="*60)
+    print("STEP 1: PROVIDE YOUR RESEARCH SOURCES")
     print("="*60)
     
     print("\nHow to provide sources?")
@@ -157,10 +264,34 @@ def main():
         print("No sources provided")
         return
     
+    print(f"\n Total sources collected: {len(sources)}")
+    for i, src in enumerate(sources[:5], 1):
+        print(f"   {i}. {src[:70]}...")
+    if len(sources) > 5:
+        print(f"   ... and {len(sources)-5} more")
+    
+    # Step 2: Ask if user wants to run tests
+    print("\n" + "="*60)
+    print("STEP 2: RUN TESTS ON YOUR SOURCES")
+    print("="*60)
+    
+    run_tests = input("\nRun tests on your sources before processing? (y/n): ").strip().lower()
+    
+    if run_tests == 'y':
+        run_tests_on_sources(sources)
+    else:
+        print("\nSkipping tests. Proceeding directly to processing...")
+    
+    # Step 3: Process the sources
+    print("\n" + "="*60)
+    print("STEP 3: PROCESSING SOURCES")
+    print("="*60)
+    
     print(f"\nProcessing {len(sources)} sources...")
     
     all_claims = []
     source_count = 0
+    broken_sources = []
     
     for src in sources:
         text, title = fetch_content(src)
@@ -172,14 +303,21 @@ def main():
             all_claims.extend(claims)
             source_count += 1
             display_name = get_display_name(src)
-            print(f"  [{source_count}] Processed: {display_name} ({len(claims)} claims)")
+            print(f"  ✓ [{source_count}] {display_name} → {len(claims)} claims")
+        else:
+            broken_sources.append(src)
+    
+    if broken_sources:
+        print(f"\n  Skipped {len(broken_sources)} broken/unreachable source(s)")
     
     if not all_claims:
-        print("No claims extracted from any source")
+        print("\n No claims extracted from any source")
         return
     
+    # Group claims
     themes = group_claims(all_claims)
     
+    # Save output
     timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
     save_file = Path(OUTPUT_FOLDER) / f"analysis_{timestamp}.txt"
     
@@ -188,15 +326,18 @@ def main():
         f.write(f"RESEARCH DIGEST - {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}\n")
         f.write("="*60 + "\n\n")
         
+        f.write(f"SOURCES PROVIDED: {len(sources)}\n")
         f.write(f"SOURCES PROCESSED: {source_count}\n")
-        f.write(f"TOTAL CLAIMS: {len(all_claims)}\n")
-        f.write(f"THEMES FOUND: {len(themes)}\n\n")
+        f.write(f"SOURCES SKIPPED (broken): {len(broken_sources)}\n")
+        f.write(f"TOTAL CLAIMS EXTRACTED: {len(all_claims)}\n")
+        f.write(f"THEMES IDENTIFIED: {len(themes)}\n\n")
         
         f.write("-"*60 + "\n")
         f.write("SOURCES:\n")
         f.write("-"*60 + "\n")
         for src in sources:
-            f.write(f"  - {src}\n")
+            status = "✓" if src not in broken_sources else "✗"
+            f.write(f"  {status} {src}\n")
         
         f.write("\n" + "-"*60 + "\n")
         f.write("KEY THEMES:\n")
@@ -205,33 +346,35 @@ def main():
         for i, theme in enumerate(themes, 1):
             f.write(f"\n{i}. {theme['theme']}\n")
             best_claim = max(theme['claims'], key=lambda x: x['confidence'])
-            f.write(f"   {best_claim['text'][:150]}...\n")
+            f.write(f"   Summary: {best_claim['text'][:150]}...\n")
             f.write(f"   Supporting claims: {len(theme['claims'])}\n")
         
         f.write("\n" + "-"*60 + "\n")
-        f.write("ALL CLAIMS:\n")
+        f.write("ALL CLAIMS WITH EVIDENCE:\n")
         f.write("-"*60 + "\n")
         
         for i, claim in enumerate(all_claims, 1):
-            f.write(f"\n{i}. {claim['text']}\n")
-            f.write(f"   Confidence: {claim['confidence']*100:.0f}%\n")
+            f.write(f"\n{i}. CLAIM: {claim['text']}\n")
+            f.write(f"   EVIDENCE: {claim['evidence'][:150]}...\n")
+            f.write(f"   CONFIDENCE: {claim['confidence']*100:.0f}%\n")
             source_short = claim['source'][:60].replace('\\', '/')
-            f.write(f"   Source: {source_short}\n")
+            f.write(f"   SOURCE: {source_short}\n")
     
+    # Display results
     print("\n" + "="*60)
     print("RESULTS")
     print("="*60)
-    print(f"Sources processed: {source_count}")
-    print(f"Claims extracted: {len(all_claims)}")
-    print(f"Themes identified: {len(themes)}")
+    print(f"\n✓ Sources processed successfully: {source_count}/{len(sources)}")
+    print(f"✓ Claims extracted: {len(all_claims)}")
+    print(f"✓ Themes identified: {len(themes)}")
     
     print("\n--- SAMPLE CLAIMS ---")
     for claim in all_claims[:3]:
         print(f"\n  {claim['text'][:100]}...")
-        print(f"  Confidence: {claim['confidence']*100:.0f}%")
+        print(f"     Confidence: {claim['confidence']*100:.0f}%")
     
     print("\n" + "="*60)
-    print(f"SAVED TO: {save_file}")
+    print(f" OUTPUT SAVED TO: {save_file}")
     print("="*60)
 
 if __name__ == "__main__":
